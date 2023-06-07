@@ -1,0 +1,113 @@
+body {
+    background-color: #ffdcdc;
+}
+
+header {
+    color: #85a6a0;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+textarea[name="user-input"] {
+    background-color: #C5DFDC;
+    width: 66%;
+    border: 5px solid #F2C2C2;
+    border-radius: 15px;
+    padding: 50px;
+    margin: auto;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: mediumpurple;
+    
+}
+
+li {
+    display: inline-block; 
+}
+.caracteres {
+    background-color: #bfa4a4;
+    color: white;
+    padding: 10px; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 4px solid #f2c2c2;
+    margin: 4px 2px;
+}
+.caracteressinespacios {
+    background-color: #bfa4a4;
+    color: white;
+    padding: 10px; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 4px solid #f2c2c2;
+    margin: 4px 2px;
+}
+.palabras {
+    background-color: #bfa4a4;
+    color: white;
+    padding: 10px; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 4px solid #f2c2c2;
+    margin: 4px 2px;
+}
+.numeros {
+    background-color: #bfa4a4;
+    color: white;
+    padding: 10px; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 4px solid #f2c2c2;
+    margin: 4px 2px;
+}
+.sumadenumeros {
+    background-color: #bfa4a4;
+    color: white;
+    padding: 10px; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 4px solid #F2C2C2;
+    margin: 4px 2px;
+}
+.promediolongitud {
+    background-color: #bfa4a4;
+    color: white;
+    padding: 10px; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 4px solid #F2C2C2;
+    margin: 4px 2px;
+}
+
+#reset-button {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  border-radius: 16px;
+  border: 4px solid #f2c2c2;
+  background-color: #85a6a0;
+  width: 15%;
+  
+  
+}
+
+footer {
+    color:#85a6a0;
+    border-top: solid;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+} 
