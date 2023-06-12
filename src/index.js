@@ -1,17 +1,19 @@
 import analyzer from './analyzer.js';
 
+// analyzer.getAlert("Hola analyzer");
+
 let area = document.querySelector('textarea');
 area.addEventListener('input', function() {
   // se escucha cada evento de teclado en el textarea con el name 'user-input'
 
   let li =  document.querySelector('.metricas').getElementsByTagName('li');
   //document.querySelector("ul");
- li[0].innerHTML=area.value;
- li[1].innerHTML=area.value;
- li[2].innerHTML=area.value;
- li[3].innerHTML=area.value;
- li[4].innerHTML=area.value;
- li[5].innerHTML=area.value;
+ li[0].innerHTML=analyzer.getWordCount(area);
+ li[1].innerHTML=analyzer.getCharacterCount(area);
+ li[2].innerHTML=analyzer.getCharacterCountExcludingSpaces(area);
+ li[3].innerHTML=analyzer.getAverageWordLength(area);
+ li[4].innerHTML=analyzer.getNumberCount(area);
+ li[5].innerHTML=analyzer.getNumberSum(area);
 
  //alert("el valor del li en el indice 0 es "+li[0].innerHTML);
  // alert("el valor del li en el indice 1 es "+li[1].innerHTML);
@@ -26,3 +28,4 @@ area.addEventListener('input', function() {
 
   }*/
 }, false);
+

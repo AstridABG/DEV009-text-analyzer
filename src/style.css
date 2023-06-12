@@ -25,7 +25,7 @@ textarea[name="user-input"] {
 li {
     display: inline-block; 
 }
-.caracteres {
+.Wordcount {
     background-color: #bfa4a4;
     color: white;
     padding: 10px; 
@@ -36,7 +36,7 @@ li {
     border: 4px solid #f2c2c2;
     margin: 4px 2px;
 }
-.caracteressinespacios {
+.CharacterCount {
     background-color: #bfa4a4;
     color: white;
     padding: 10px; 
@@ -47,7 +47,7 @@ li {
     border: 4px solid #f2c2c2;
     margin: 4px 2px;
 }
-.palabras {
+.CharacterCountWithoutSpaces {
     background-color: #bfa4a4;
     color: white;
     padding: 10px; 
@@ -58,7 +58,7 @@ li {
     border: 4px solid #f2c2c2;
     margin: 4px 2px;
 }
-.numeros {
+.AverageWordLenght {
     background-color: #bfa4a4;
     color: white;
     padding: 10px; 
@@ -69,7 +69,7 @@ li {
     border: 4px solid #f2c2c2;
     margin: 4px 2px;
 }
-.sumadenumeros {
+.NumberCount {
     background-color: #bfa4a4;
     color: white;
     padding: 10px; 
@@ -80,7 +80,7 @@ li {
     border: 4px solid #F2C2C2;
     margin: 4px 2px;
 }
-.promediolongitud {
+.NumberSum {
     background-color: #bfa4a4;
     color: white;
     padding: 10px; 
