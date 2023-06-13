@@ -8,35 +8,32 @@
 </head>
 
 <body>
+  <div class="contenedor">
+
   <header>
     <h1>Analizador de texto</h1>
   </header>
   <br />
-
-  <textarea name="user-input" >
-  </textarea>
-  <br />
-
   <ul class="metricas">
-
-    <li class="Wordcount">Recuento de palabras</li>
-  
-    <li class="CharacterCount">Caracteres</li>
-    
-    <li class="CharacterCountWithoutSpaces">Caracteres sin espacios</li>
-    <br />
-    <li class="AverageWordLenght">Promedio de la longitud de las palabras</li>
-    
-    <li class="NumberCount">Cuantos numeros hay</li>
-    
-    <li class="NumberSum">Suma de numeros</li>
+    <li class="characterCount">0</li>
+    <li class="characterWOSpaces">0</li>
+    <li class="wordCount">0</li>
+  <br />
+    <li class="numberCount">0</li>
+    <li class="sumOfNumbers">0</li>
+    <li class="averageLength">0</li> 
   </ul>
   <br />
+  <textarea name="user-input"></textarea>
+  <br />
+  
+
 
   <button id="reset-button">probar JS</button>
 
 
   <script src="index.js" type="module"></script>
+  </div>
 </body>
 <br />
 <br />
