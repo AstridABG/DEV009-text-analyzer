@@ -1,5 +1,6 @@
 body {
     background-color: #ffdcdc;
+    background-image: url("fondo.png");
 }
 .contenedor {
     width: 700px;

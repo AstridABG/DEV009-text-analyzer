@@ -1,13 +1,13 @@
 const analyzer = {  
   getCharacterCount: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
-    const textWOSpaceStart = text.value; //.trimStart();
+    const textWOSpaceStart = text.trimStart();
     return textWOSpaceStart.length;
   },
   getCharacterCountExcludingSpaces: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
   
-    const strWODots = text.value.replaceAll(".", "");
+    const strWODots = text.replaceAll(".", "");
     const strWOComma = strWODots.replaceAll(",", "");
     const strWOColon = strWOComma.replaceAll(":", "");
     const strWOSemicolon = strWOColon.replaceAll(";", "");
@@ -31,7 +31,7 @@ const analyzer = {
   },
   getWordCount: (text) => {
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
-    const textWOSpaceStart = text.value.trimEnd();
+    const textWOSpaceStart = text.trimEnd();
     const arrayOfText = textWOSpaceStart.split(" "); 
     //alert(arrayOfText.length);
     return arrayOfText.length;
@@ -40,17 +40,14 @@ const analyzer = {
 
   getNumberCount: (text) => {
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
-    const textWOSpaceStart = text.value.trimEnd();
+    const textWOSpaceStart = text.trimEnd();
     const arrayOfWords = textWOSpaceStart.split(" ");
-    let characterSum = 0;
     let counter = 0;
     for (let index=0; index<arrayOfWords.length; index++){
-     let word = arrayOfWords[index];
-     //console.log(word);
-     //console.log(isNaN(word));
-     if (!isNaN(word)){
-      counter++;
-     }
+      const word = arrayOfWords[index];
+      if (!isNaN(word)){
+        counter++;
+      }
       
     }
     return counter;
@@ -78,17 +75,17 @@ const analyzer = {
   getNumberSum: (text) => {
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
     
-    const textWOSpaceStart = text.value.trimEnd();
+    const textWOSpaceStart = text.trimEnd();
     const arrayOfWords = textWOSpaceStart.split(" ");
     let numberSum = 0;
     
     for (let index=0; index<arrayOfWords.length; index++){
-     let word = arrayOfWords[index];
-     //console.log(word);
-     //console.log(isNaN(word));
-     if (!isNaN(word)){
-      numberSum = numberSum + parseFloat(word);
-     }
+      const word = arrayOfWords[index];
+      //console.log(word);
+      //console.log(isNaN(word));
+      if (!isNaN(word)){
+        numberSum = numberSum + parseFloat(word);
+      }
       
     }
     return numberSum;
@@ -115,7 +112,7 @@ const analyzer = {
   getAverageWordLength: (text) => {    
     //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
   
-    const textWOSpaceStart = text.value;
+    const textWOSpaceStart = text.trimEnd();
     const arrayOfWords = textWOSpaceStart.split(" ");
     let characterSum = 0;
     let division = 0;
@@ -124,7 +121,7 @@ const analyzer = {
       characterSum = characterSum + arrayOfWords[index].length;
       division =  characterSum / arrayOfWords.length;
     }
-    return division.toFixed(3);
+    return parseFloat(division.toFixed(2));
   },
 
 
@@ -133,5 +130,6 @@ const analyzer = {
 
   
 };
+
 
 export default analyzer;
