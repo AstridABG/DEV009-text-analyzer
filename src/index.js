@@ -33,3 +33,4 @@ const resetButton = document.getElementById('reset-button');
 resetButton.addEventListener('click', function (){
   area.value = ""
 });
+
