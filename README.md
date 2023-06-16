@@ -15,39 +15,24 @@
 
 ***
 
-## 1. Consideraciones generales
+## 1. Objetivos
 
-* Este proyecto lo resolvemos de manera **individual**.
-* El rango de tiempo estimado para completar el proyecto es de 1 a 3 Sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto.
-* Te sugerimos que no intentes saberlo todo antes de empezar a codear.
-  No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
-  Irás aprendiendo.
+Hacer un Analizador de texto que nos permita:
+* Contar caracteres con espacios y sin espacios.
+* Contar las palabras que contiene el texto.
+* Contar cuántos números hay en nuestro texto considerando como números cifras de más de un caracter y números decimales.
+* Hacer la suma de los números detectados.
+* Realizar una longitud promedio de las palabras analizadas.
+* Diseñar y desarrollar un producto poniendo a las usuarias en el centro.
 
 ## 2. Preámbulo
 
-![Una lupa sobre texto de libro](https://github.com/Laboratoria/bootcamp/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
+![Escritorio](https://cursotextosdigitales.files.wordpress.com/2020/08/produccion-de-textos.png)
 
-_Credito: Foto de [ethan](https://unsplash.com/fr/@andallthings?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
-_en [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
+_Credito: Anónimo, imágen extraída de [Wordpress](https://cursotextosdigitales.files.wordpress.com/2020/08/produccion-de-textos.png)_
 
-Un analizador de texto es una aplicación para extraer información útil de un
-texto utilizando diversas técnicas, como el procesamiento del lenguaje
-natural (NLP), el aprendizaje automático (ML) y el análisis estadístico.
-Estas aplicaciones pueden proporcionar una variedad de métricas que brindan
-información básica sobre la longitud y la estructura del texto como por
-ejemplo, el conteo de palabras, el conteo de caracteres, el conteo de
-oraciones y el conteo de párrafos. Otras métricas incluyen el análisis
-de sentimientos, que utiliza técnicas de NLP para determinar el tono
-general positivo, negativo o neutral del texto, y el análisis de
-legibilidad, que utiliza algoritmos para evaluar la complejidad y la
-legibilidad del texto.
 
-En general, las aplicaciones de análisis de texto brindan información
-valiosa y métricas sobre los textos que pueden ayudar a los usuarios a
-tomar decisiones informadas y sacar conclusiones significativas.
-Mediante el uso de estas herramientas de análisis, los usuarios pueden
-obtener una comprensión más profunda de los textos.
+Un analizador de texto es una herramienta que permite analizar un texto contando el número de caracteres, palabras y números presentes.
 
 ## 3. Funcionalidades
 
