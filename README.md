@@ -32,19 +32,19 @@ Hacer un Analizador de texto que nos permita:
 _Credito: Anónimo, imágen extraída de [Wordpress](https://cursotextosdigitales.files.wordpress.com/2020/08/produccion-de-textos.png)_
 
 
-Un analizador de texto es una herramienta que permite analizar un texto contando el número de caracteres, palabras y números presentes.
+El análisis de texto es un proceso que consiste en analizar los textos para extraer de ellos datos legibles por los sistemas informáticos.
+
+Es útil para cualquier tipo de escritor (autor, periodista, investigador, etc.) que escribe textos con un determinado número mínimo y/o máximo de palabras. Ayuda a iddentificar la repetición innecesaria de algunas palabras y promueve una mejor armonización de la terminología utilizada. Incluso podrían calcular fácilmente el precio de un texto en función de las tarifas por palabra.
+
+Esta herramienta también está destinada a los profesores, para quienes es útil evaluar el nivel de dificultad y la habilidad requerida para comprender un texto.
+
+Las empresas lo utilizan para medir las opiniones de los clientes, hacer revisiones de los productos y recolectar comentarios que faciliten el análisis de sentimientos y la toma de decisiones basadas en datos.
 
 ## 3. Funcionalidades
 
-En este proyecto implementarás un analizador de texto web para calcular
-y mostrar métricas de un texto enviado por el usuario.
+Este analizador de texto es muy fácil de usar. Simplemente copie y pegue el texto o escríbalo directamente en el cuadro de texto, los datos se mostrarán al momento en que se detecte que tiene contenido.
 
-El listado de funcionalidades es el siguiente:
-
-1. La aplicación debe permitir al usuario ingresar un texto escribiéndolo
-en un cuadro de texto.
-
-2. La aplicación debe calcular las siguientes métricas y actualizar el
+La aplicación debe calcular las siguientes métricas y actualizar el
 resultado en tiempo real a medida que el usuario escribe su texto:
 
     - **Recuento de palabras**: la aplicación debe poder contar el número de
