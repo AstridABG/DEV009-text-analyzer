@@ -36,8 +36,14 @@ area.addEventListener('keyup', function() {
  
 //boton de reset
 const resetButton = document.getElementById('reset-button')
+/*Sacamos la constante li de la funcion anterior, ya que al haberla declarado dentro de una funcion es una variable privada/anidada
+y no podriamos utilizarla fuera de la funcion*/
 const li = document.querySelector('.metricas').getElementsByTagName('li');
+/*El metodo addEventListener() es utilizado para agregar un evento a un elemento HTML, en este caso 
+el evento es un clic en el boton con el Id='reset-button'*/
 resetButton.addEventListener('click', function (){
+  /*Cuando se hace clic en el boton, la funcion se ejecuta y establece el valor del area de texto en una cadena vacia
+  y para el caso de los li's les asigne el valor de 0 para cuando se haga click en el boton */
   area.value = "";
   li[0].innerHTML = "0";
   li[1].innerHTML = "0";
