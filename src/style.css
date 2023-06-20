@@ -36,6 +36,7 @@ textarea[name="user-input"] {
 }
 li {
     display: inline-block;
+   
 }
 .characterCount::before {
     content: "Caracteres: ";
